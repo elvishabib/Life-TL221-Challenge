@@ -1,0 +1,54 @@
+head {
+  font-family: "Roboto";
+}
+
+body {
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-family: "Times New Roman";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 25px;
+  color: #aaa;
+  text-align: center;
+}
+
+td {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.alive {
+  background: slategrey;
+}
+
+.dead {
+  background: whitesmoke;
+}
+
+.container {
+  height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game_board {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
